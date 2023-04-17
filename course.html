@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title name-->
+    <title>University Website Design </title>
+    <link rel="stylesheet" href="styles.css">
+    <!--gogle fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/5bcbd78c1a.js"></script>
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+       
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-circle-xmark" onclick="hidemenu()"></i>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="course.html">Course</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Our courses</h1>
+    </section>
+
+    <!---------------------------------------------------->
+    <!--COURSE-->
+    <section class="course">
+        <h1>Courses we Offer</h1>
+        <p>Lorem ipsum dolor sit met, consectetur adipiscing elit.</p>
+         <div class="row"> 
+          <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+               Sit eveniet dolore cum dolorem accusantium quisquam aliquam, excepturi 
+              consectetur quo? Corrupti, ad ipsum. 
+             </p>
+          </div>
+          <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+               Sit eveniet dolore cum dolorem accusantium quisquam aliquam, excepturi 
+              consectetur quo? Corrupti, ad ipsum. 
+              </p>
+          </div>
+          <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+               Sit eveniet dolore cum dolorem accusantium quisquam aliquam, excepturi
+              consectetur quo? Corrupti, ad ipsum.</p> 
+         </div>
+      </section>
+      <!----------------------------------------------------------------> 
+    <!--Facilities-->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit met, consectetur adipiscing elit.</p>
+        <div class="row">
+          <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+  
+          </div>
+          <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+  
+          </div>
+          <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>  Tasty and Healthy Food  </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+  
+          </div>
+        </div>
+  
+  
+      </section>
+    <!---------------------------------------------------->
+    <!--Footer -->
+    <section class="mfoot">
+      <h4> ABOUT US</h4>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Dicta consectetur <br> tempora minima ipsam, at explicabo.</p>
+         <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+         </div>
+         <p>Made With <i class="fa-regular fa-heart"></i> by D N V D Rao </p>
+
+    </section>
+        <!--java scrip for tooggel menu-->
+        <script>
+          var navLinks = document.getElementById("navLinks");
+         function showmenu(){
+            navLinks.style.right = "0";
+         }
+         function hidemenu(){
+            navLinks.style.right = "-200px";
+         }
+        </script>
+    
+</body>
+</html>

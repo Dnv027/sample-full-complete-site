@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title name-->
+    <title>University Website Design </title>
+    <link rel="stylesheet" href="styles.css">
+    <!--gogle fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/5bcbd78c1a.js"></script>
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+       
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-circle-xmark" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1> Our Certificate & Online Programs For 2023</h1>
+    </section>
+
+    <!---------------------------------------------------->
+   <!--blog page content-->
+   <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+        <h2>Our Certificate & Online Programs For 2023</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos vitae ex molestiae dolor laudantium odio non, sapiente deserunt rem libero commodi aliquid quo quam, eveniet ratione ea exercitationem ab totam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel expedita ut 
+        </p>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione inventore qui optio laborum iste, ea praesentium deleniti. Inventore reprehenderit laudantium asperiores. Praesentium, similique facere neque dolores aliquam natus quos hic?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptate exercitationem! Dolorem odio tempore itaque nobis eveniet impedit ex! Aperiam dolores, suscipit perferendis autem nobis eveniet sequi hic cum? Aspernatur?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis ipsa numquam dolore, aspernatur quae soluta provident ipsam cum quo voluptatum repellat ducimus autem corrupti temporibus, similique minima possimus? Nesciunt, veniam!
+
+        </p>
+        <br>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores eum tempore corrupti qui inventore molestiae voluptates odit, perferendis odio porro ut cum illo deleniti ad itaque dolore nisi incidunt numquam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis, autem alias fugiat sapiente exercitationem obcaecati officia repudiandae repellendus dolore quod, eius temporibus mollitia impedit sunt quas? Adipisci, blanditiis sit.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A facilis provident sint. Cumque pariatur dolorum nisi debitis similique quos repellendus exercitationem accusantium repudiandae quisquam? Excepturi natus earum repudiandae pariatur ab?
+
+        </p>
+        <br>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, voluptate sint ipsum dolores expedita aut inventore, fugiat tempore magni, amet ducimus laborum quisquam impedit officia voluptas dolorem eligendi. Ullam, quia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolores sapiente fugiat corporis id ad sunt facilis nobis doloremque, natus in quos aliquid voluptas officia porro, molestias vero accusamus incidunt.
+
+        </p>
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter email">
+                <textarea  rows="5" placeholder="Your comment"></textarea>
+                <button type="submit" class="btn1 red-btn"> POST COMMENT</button>
+
+            </form>
+        </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine  Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Autocad</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            
+        </div>
+    </div>
+
+   </section>
+    <!---------------------------------------------------->
+    <!--Footer -->
+    <section class="mfoot">
+      <h4> ABOUT US</h4>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Dicta consectetur <br> tempora minima ipsam, at explicabo.</p>
+         <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+         </div>
+         <p>Made With <i class="fa-regular fa-heart"></i> by D N V D Rao </p>
+
+    </section>
+        <!--java scrip for tooggel menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+           function showmenu(){
+              navLinks.style.right = "0";
+           }
+           function hidemenu(){
+              navLinks.style.right = "-200px";
+           }
+          </script>
+    
+</body>
+</html>
